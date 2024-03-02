@@ -1,0 +1,33 @@
+.container {
+  color: aqua;
+}
+
+.form {
+  display: flex;
+
+  &__input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #c1c1c1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+    &::placeholder {
+      font-size: 16px;
+      color: #777;
+    }
+  }
+
+  &__button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    background-color: #198754;
+    color: #fff;
+  }
+}
